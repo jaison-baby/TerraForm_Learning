@@ -1,0 +1,9 @@
+This terrafiorm script to create S3 bucket
+
+Below are the following steps
+
+1. In provider give the authentication Tokens like Secret and Access key
+
+2. Then the resource will create the bucket with named testterrafrom
+
+

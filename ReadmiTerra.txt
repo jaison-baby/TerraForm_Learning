@@ -1,0 +1,21 @@
+This terraform script launching AWS instance with key pair with created security rules.
+
+Below are the following steps
+
+1. In provider give the authentication Tokens like Secret and Access key
+
+2. In resource section give the AMI, Instance Type, key name that we already created in Key pair service and also the 
+   Scurity group we crated.
+
+3 In Aws security group assign the inbond and out bond rules.
+
+Commands to perform
+------------------
+
+terrafrom init --> to initialise the terraform
+
+terraform plan --> plan is what the terraform script to plan to do
+
+terraform apply --> execution of terraform script
+
+
