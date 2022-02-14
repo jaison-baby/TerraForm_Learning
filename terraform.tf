@@ -10,8 +10,10 @@ resource "aws_instance" "ec2_example" {
     ami = "ami-0b614a5d911900a9b"  
     instance_type = "t2.micro" 
     key_name= "test"
-    vpc_security_group_ids = [
-      "sg-07ab06a4453c78496", ]
+  /* vpc_security_group_ids = [
+      "sg-07ab06a4453c78496", ] */
+    vpc_security_group_ids = [aws_security_group.main.id]
+    
 }
 
 resource "aws_security_group" "main" {
