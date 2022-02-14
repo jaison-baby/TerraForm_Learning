@@ -6,8 +6,9 @@ Below are the following steps
 
 2. In resource section give the AMI, Instance Type, key name that we already created in Key pair service and also the 
    Scurity group we crated.
+3.  vpc_security_group_ids  this variables uses terraform creates this security group, attach it to instance
 
-3 In Aws security group assign the inbond and out bond rules.
+4. In Aws security group assign the inbond and out bond rules.
 
 Commands to perform
 ------------------
